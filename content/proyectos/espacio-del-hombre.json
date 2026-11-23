@@ -1,0 +1,16 @@
+{
+  "id": "espacio-del-hombre",
+  "titulo": "Espacio del Hombre (SML)",
+  "categoria": "Editorial",
+  "cliente": "SML",
+  "destaca": "Intervención gráfica de gran formato en un espacio físico.",
+  "orden": 4,
+  "imgs": [
+    ["espacio-del-hombre-01",1080,1080],
+    ["espacio-del-hombre-02",1000,639],
+    ["espacio-del-hombre-03",1000,639],
+    ["espacio-del-hombre-04",1000,639],
+    ["espacio-del-hombre-05",1000,639],
+    ["espacio-del-hombre-06",1000,639]
+  ]
+}

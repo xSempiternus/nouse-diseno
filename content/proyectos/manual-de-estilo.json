@@ -1,0 +1,18 @@
+{
+  "id": "manual-de-estilo",
+  "titulo": "Manual de Estilo (SML)",
+  "categoria": "Editorial",
+  "cliente": "SML",
+  "destaca": "Manual de estilo con portada de patrón paisley colorido.",
+  "orden": 3,
+  "imgs": [
+    ["manual-de-estilo-01",1000,641],
+    ["manual-de-estilo-02",1000,641],
+    ["manual-de-estilo-03",1000,641],
+    ["manual-de-estilo-04",1000,641],
+    ["manual-de-estilo-05",1000,641],
+    ["manual-de-estilo-06",1000,641],
+    ["manual-de-estilo-07",1000,641],
+    ["manual-de-estilo-08",1000,641]
+  ]
+}

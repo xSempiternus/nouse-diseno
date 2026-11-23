@@ -1,0 +1,16 @@
+{
+  "id": "web-termoservicios",
+  "titulo": "Web Termoservicios",
+  "categoria": "Web",
+  "cliente": "Termoservicios",
+  "destaca": "Diseño del sitio web de una empresa de climatización.",
+  "orden": 23,
+  "imgs": [
+    ["web-termoservicios-01",1200,800],
+    ["web-termoservicios-02",1200,800],
+    ["web-termoservicios-03",1200,800],
+    ["web-termoservicios-04",1200,800],
+    ["web-termoservicios-05",1200,800],
+    ["web-termoservicios-06",1200,800]
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "web-imprenta-los-heroes",
+  "titulo": "Web Imprenta Los Héroes",
+  "categoria": "Web",
+  "cliente": "Imprenta Los Héroes",
+  "destaca": "Diseño del sitio web de una imprenta.",
+  "orden": 24,
+  "imgs": [
+    ["web-imprenta-los-heroes-01",1200,800],
+    ["web-imprenta-los-heroes-02",1200,800],
+    ["web-imprenta-los-heroes-03",1200,800],
+    ["web-imprenta-los-heroes-04",1200,800],
+    ["web-imprenta-los-heroes-05",1200,800],
+    ["web-imprenta-los-heroes-06",1200,800]
+  ]
+}

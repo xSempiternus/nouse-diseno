@@ -1,0 +1,21 @@
+{
+  "id": "anuarios-imlp",
+  "titulo": "Anuarios IMLP 2014-2022",
+  "categoria": "Editorial",
+  "cliente": "IMLP",
+  "destaca": "Anuarios institucionales: una serie con identidad ilustrada propia en cada edición.",
+  "orden": 1,
+  "imgs": [
+    ["anuarios-imlp-01",1029,713],
+    ["anuarios-imlp-02",1000,636],
+    ["anuarios-imlp-03",1000,636],
+    ["anuarios-imlp-04",1029,713],
+    ["anuarios-imlp-05",1000,667],
+    ["anuarios-imlp-06",1000,667],
+    ["anuarios-imlp-07",1029,713],
+    ["anuarios-imlp-08",1000,644],
+    ["anuarios-imlp-09",1000,644],
+    ["anuarios-imlp-10",1029,713],
+    ["anuarios-imlp-11",1029,713]
+  ]
+}

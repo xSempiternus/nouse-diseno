@@ -1,0 +1,23 @@
+{
+  "id": "yungay-historico",
+  "titulo": "Yungay Histórico",
+  "categoria": "Imagen corporativa",
+  "cliente": "Yungay Histórico (Barrio Yungay)",
+  "destaca": "Identidad patrimonial y sistema de piezas para redes sociales.",
+  "orden": 19,
+  "imgs": [
+    ["yungay-historico-01",1200,800],
+    ["yungay-historico-02",1200,800],
+    ["yungay-historico-03",1200,800],
+    ["yungay-historico-04",1200,800],
+    ["yungay-historico-05",1200,800],
+    ["yungay-historico-06",1200,800],
+    ["yungay-historico-07",1200,800],
+    ["yungay-historico-08",1200,800],
+    ["yungay-historico-09",1200,800],
+    ["yungay-historico-10",1200,800],
+    ["yungay-historico-11",1200,800],
+    ["yungay-historico-12",1200,800],
+    ["yungay-historico-13",1200,800]
+  ]
+}

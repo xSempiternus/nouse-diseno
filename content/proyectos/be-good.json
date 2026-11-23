@@ -1,0 +1,16 @@
+{
+  "id": "be-good",
+  "titulo": "Be Good",
+  "categoria": "Imagen corporativa",
+  "cliente": "Be Good",
+  "destaca": "Identidad fresca en verde y azul con un sistema gráfico coherente.",
+  "orden": 16,
+  "imgs": [
+    ["be-good-01",1000,773],
+    ["be-good-02",1000,773],
+    ["be-good-03",1000,773],
+    ["be-good-04",1000,773],
+    ["be-good-05",1000,773],
+    ["be-good-06",1000,773]
+  ]
+}

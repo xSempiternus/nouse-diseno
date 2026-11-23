@@ -1,0 +1,20 @@
+{
+  "id": "memorias-mineras",
+  "titulo": "Memorias de sustentabilidad (CEIM, Escondida, FME)",
+  "categoria": "Editorial",
+  "cliente": "Minera Escondida / CEIM / FME",
+  "destaca": "Memorias de sustentabilidad: serie corporativa con nubes tipográficas por color.",
+  "orden": 10,
+  "imgs": [
+    ["memorias-mineras-01",1000,707],
+    ["memorias-mineras-02",1000,707],
+    ["memorias-mineras-03",1000,707],
+    ["memorias-mineras-04",1000,707],
+    ["memorias-mineras-05",1000,707],
+    ["memorias-mineras-06",1000,707],
+    ["memorias-mineras-07",1000,707],
+    ["memorias-mineras-08",1000,707],
+    ["memorias-mineras-09",1000,707],
+    ["memorias-mineras-10",1000,707]
+  ]
+}

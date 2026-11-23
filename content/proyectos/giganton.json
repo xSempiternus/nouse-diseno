@@ -1,0 +1,16 @@
+{
+  "id": "giganton",
+  "titulo": "Gigantón",
+  "categoria": "Gráfica",
+  "cliente": "Gigantón",
+  "destaca": "Mascota y logotipo ilustrado con carácter.",
+  "orden": 13,
+  "imgs": [
+    ["giganton-01",1200,928],
+    ["giganton-02",1200,928],
+    ["giganton-03",1200,928],
+    ["giganton-04",1200,928],
+    ["giganton-05",1200,928],
+    ["giganton-06",1200,928]
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "galmet-exposiciones",
+  "titulo": "GALMET - Expo Kiltro y Arte Memoria Identidad",
+  "categoria": "Gráfica",
+  "cliente": "Galería Metropolitana (GALMET)",
+  "destaca": "Afiches de exposición con fotografía y tipografía.",
+  "orden": 15,
+  "imgs": [
+    ["galmet-exposiciones-01",1000,773],
+    ["galmet-exposiciones-02",1000,773],
+    ["galmet-exposiciones-03",1000,773],
+    ["galmet-exposiciones-04",1000,773],
+    ["galmet-exposiciones-05",1000,773],
+    ["galmet-exposiciones-06",1000,773],
+    ["galmet-exposiciones-07",1000,773]
+  ]
+}

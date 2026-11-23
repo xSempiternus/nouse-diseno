@@ -1,0 +1,20 @@
+{
+  "id": "el-cucurucho",
+  "titulo": "El Cucurucho Centro Cultural",
+  "categoria": "Imagen corporativa",
+  "cliente": "El Cucurucho",
+  "destaca": "Marca de neón para un centro cultural y gráfica de eventos en redes sociales.",
+  "orden": 18,
+  "imgs": [
+    ["el-cucurucho-01",1200,800],
+    ["el-cucurucho-02",1200,800],
+    ["el-cucurucho-03",1200,800],
+    ["el-cucurucho-04",1200,800],
+    ["el-cucurucho-05",1200,800],
+    ["el-cucurucho-06",1200,800],
+    ["el-cucurucho-07",1200,800],
+    ["el-cucurucho-09",1200,800],
+    ["el-cucurucho-10",1200,800],
+    ["el-cucurucho-11",1200,800]
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "papachago-new-york",
+  "titulo": "Papachago y Papas New York",
+  "categoria": "Imagen corporativa",
+  "cliente": "Papachago / Papas New York",
+  "destaca": "Dos marcas de papas fritas con logotipos icónicos y alegres.",
+  "orden": 21,
+  "imgs": [
+    ["papachago-new-york-01",1200,777],
+    ["papachago-new-york-02",1200,777],
+    ["papachago-new-york-03",1200,777],
+    ["papachago-new-york-04",1200,777],
+    ["papachago-new-york-05",1200,777],
+    ["papachago-new-york-06",1200,777],
+    ["papachago-new-york-07",1200,777],
+    ["papachago-new-york-08",1200,777],
+    ["papachago-new-york-09",1200,777]
+  ]
+}

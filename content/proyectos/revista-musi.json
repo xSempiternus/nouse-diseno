@@ -1,0 +1,16 @@
+{
+  "id": "revista-musi",
+  "titulo": "Revista MUSI Arte",
+  "categoria": "Editorial",
+  "cliente": "MUSI",
+  "destaca": "Revista de arte con ilustración vibrante en azul y naranja.",
+  "orden": 9,
+  "imgs": [
+    ["revista-musi-01",1102,713],
+    ["revista-musi-02",1102,713],
+    ["revista-musi-03",1102,713],
+    ["revista-musi-04",1102,713],
+    ["revista-musi-05",1102,713],
+    ["revista-musi-06",1102,713]
+  ]
+}

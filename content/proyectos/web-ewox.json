@@ -1,0 +1,16 @@
+{
+  "id": "web-ewox",
+  "titulo": "Web Ewox",
+  "categoria": "Web",
+  "cliente": "Ewox",
+  "destaca": "Diseño del sitio web corporativo.",
+  "orden": 22,
+  "imgs": [
+    ["web-ewox-01",1200,800],
+    ["web-ewox-02",1200,800],
+    ["web-ewox-03",1200,800],
+    ["web-ewox-04",1200,800],
+    ["web-ewox-05",1200,800],
+    ["web-ewox-06",1200,800]
+  ]
+}

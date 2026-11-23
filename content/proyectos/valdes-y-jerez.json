@@ -1,0 +1,14 @@
+{
+  "id": "valdes-y-jerez",
+  "titulo": "Valdés y Jerez",
+  "categoria": "Imagen corporativa",
+  "cliente": "Valdés & Jerez",
+  "destaca": "Exploración de logotipo con monograma y registro del proceso.",
+  "orden": 17,
+  "imgs": [
+    ["valdes-y-jerez-01",1200,800],
+    ["valdes-y-jerez-02",1200,800],
+    ["valdes-y-jerez-03",1200,800],
+    ["valdes-y-jerez-04",1200,800]
+  ]
+}

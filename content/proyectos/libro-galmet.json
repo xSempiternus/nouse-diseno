@@ -1,0 +1,18 @@
+{
+  "id": "libro-galmet",
+  "titulo": "Libro Galmet 2018",
+  "categoria": "Editorial",
+  "cliente": "Galería Metropolitana (GALMET)",
+  "destaca": "Libro de arte con fotografía de paisaje urbano.",
+  "orden": 7,
+  "imgs": [
+    ["libro-galmet-01",1029,713],
+    ["libro-galmet-02",1000,713],
+    ["libro-galmet-03",1000,713],
+    ["libro-galmet-04",1000,713],
+    ["libro-galmet-05",1000,713],
+    ["libro-galmet-06",1000,713],
+    ["libro-galmet-07",1000,713],
+    ["libro-galmet-08",1000,713]
+  ]
+}

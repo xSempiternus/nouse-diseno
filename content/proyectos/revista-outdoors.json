@@ -1,0 +1,16 @@
+{
+  "id": "revista-outdoors",
+  "titulo": "Revista Outdoors 206 y 208",
+  "categoria": "Editorial",
+  "cliente": "Outdoors",
+  "destaca": "Revista de aventura: fotografía a gran escala y maquetación limpia.",
+  "orden": 5,
+  "imgs": [
+    ["revista-outdoors-01",1000,653],
+    ["revista-outdoors-02",1000,653],
+    ["revista-outdoors-03",1000,653],
+    ["revista-outdoors-04",1000,653],
+    ["revista-outdoors-05",1000,653],
+    ["revista-outdoors-06",1000,653]
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "nosetty",
+  "titulo": "Nosetty - Carta 2024",
+  "categoria": "Gráfica",
+  "cliente": "Nosetty",
+  "destaca": "Carta con ilustración de alimentos y mockups.",
+  "orden": 14,
+  "imgs": [
+    ["nosetty-01",1200,873],
+    ["nosetty-02",1200,873],
+    ["nosetty-03",1200,873],
+    ["nosetty-04",1200,873],
+    ["nosetty-05",1200,873],
+    ["nosetty-06",1200,873]
+  ]
+}

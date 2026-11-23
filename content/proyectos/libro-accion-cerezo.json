@@ -1,0 +1,16 @@
+{
+  "id": "libro-accion-cerezo",
+  "titulo": "Libro Acción Cerezo",
+  "categoria": "Editorial",
+  "cliente": "Acción Cerezo",
+  "destaca": "Libro de diseño sobrio: tapa negra con estrella roja.",
+  "orden": 6,
+  "imgs": [
+    ["libro-accion-cerezo-01",1029,713],
+    ["libro-accion-cerezo-02",1200,857],
+    ["libro-accion-cerezo-03",1029,713],
+    ["libro-accion-cerezo-04",1029,713],
+    ["libro-accion-cerezo-05",1029,713],
+    ["libro-accion-cerezo-06",1029,713]
+  ]
+}

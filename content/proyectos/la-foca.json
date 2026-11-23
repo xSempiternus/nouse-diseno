@@ -1,0 +1,25 @@
+{
+  "id": "la-foca",
+  "titulo": "La Foca Heladería & Cafetería",
+  "categoria": "Imagen corporativa",
+  "cliente": "La Foca",
+  "destaca": "Identidad de marca y piezas para una heladería y cafetería: branding, cartas, pendones y locales.",
+  "orden": 12,
+  "imgs": [
+    ["la-foca-01",1200,777],
+    ["la-foca-02",1200,777],
+    ["la-foca-03",1200,777],
+    ["la-foca-04",1200,777],
+    ["la-foca-05",1200,777],
+    ["la-foca-06",1200,777],
+    ["la-foca-07",1200,777],
+    ["la-foca-08",1200,777],
+    ["la-foca-09",1200,873],
+    ["la-foca-10",1200,873],
+    ["la-foca-11",1200,873],
+    ["la-foca-12",1200,777],
+    ["la-foca-13",1200,777],
+    ["la-foca-14",1200,884],
+    ["la-foca-15",1200,884]
+  ]
+}

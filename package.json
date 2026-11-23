@@ -1,0 +1,14 @@
+{
+  "name": "nous-diseno-sitio",
+  "private": true,
+  "type": "module",
+  "description": "Sitio estático de Nous Diseño. El contenido vive en content/.",
+  "scripts": {
+    "build": "node tools/build.mjs",
+    "imagenes": "node tools/add-images.mjs",
+    "dev": "python3 -m http.server 8765"
+  },
+  "devDependencies": {
+    "sharp": "^0.33.5"
+  }
+}

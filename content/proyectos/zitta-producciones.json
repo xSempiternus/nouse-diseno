@@ -1,0 +1,18 @@
+{
+  "id": "zitta-producciones",
+  "titulo": "Zitta Producciones",
+  "categoria": "Imagen corporativa",
+  "cliente": "Zitta Producciones",
+  "destaca": "Logotipo caligráfico en distintas versiones y piezas para las redes sociales de eventos.",
+  "orden": 20,
+  "imgs": [
+    ["zitta-producciones-01",1200,800],
+    ["zitta-producciones-02",1200,800],
+    ["zitta-producciones-03",1200,800],
+    ["zitta-producciones-04",1200,800],
+    ["zitta-producciones-05",1200,800],
+    ["zitta-producciones-06",1200,800],
+    ["zitta-producciones-07",1200,800],
+    ["zitta-producciones-08",1200,800]
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "libro-eclipse",
+  "titulo": "Libro Eclipse Solar 2019",
+  "categoria": "Editorial",
+  "cliente": "Eclipse 2019",
+  "destaca": "Libro fotográfico oscuro y atmosférico sobre el eclipse solar de 2019.",
+  "orden": 11,
+  "imgs": [
+    ["libro-eclipse-01",1029,713],
+    ["libro-eclipse-02",1200,494],
+    ["libro-eclipse-03",1200,504],
+    ["libro-eclipse-04",1200,504],
+    ["libro-eclipse-05",1200,504],
+    ["libro-eclipse-06",1200,504]
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "revista-sml",
+  "titulo": "Revista SML #16-24",
+  "categoria": "Editorial",
+  "cliente": "SML",
+  "destaca": "Revista de estilo con portadas fotográficas y maquetación de interiores.",
+  "orden": 2,
+  "imgs": [
+    ["revista-sml-01",697,900],
+    ["revista-sml-02",697,900],
+    ["revista-sml-03",697,900],
+    ["revista-sml-04",697,900],
+    ["revista-sml-05",1200,766],
+    ["revista-sml-06",1200,766],
+    ["revista-sml-07",1200,766],
+    ["revista-sml-08",1200,766],
+    ["revista-sml-09",1200,766],
+    ["revista-sml-10",1200,766]
+  ]
+}

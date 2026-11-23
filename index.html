@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="es-CL">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Nous Diseño · Estudio de diseño y comunicación digital en Chile</title>
+<meta name="description" content="Nous Diseño · Estudio de diseño y comunicación digital en Chile: libros, revistas, identidad de marca, gráfica y sitios&nbsp;web.">
+<link rel="icon" href="assets/brand/favicon.png" type="image/png">
+<meta name="theme-color" content="#000000">
+<link rel="preload" href="fonts/manrope.woff" as="font" type="font/woff" crossorigin>
+<link rel="stylesheet" href="css/styles.css">
+<script>
+  // Marca temprana para evitar parpadeos: js habilitado y movimiento reducido.
+  document.documentElement.classList.add('js');
+  if (matchMedia('(prefers-reduced-motion: reduce)').matches) document.documentElement.classList.add('reduced');
+</script>
+</head>
+<body>
+<a class="skip" href="#trabajos">Saltar a los trabajos</a>
+
+<header class="nav" id="nav">
+  <div class="nav__bar">
+    <a class="logo" href="#inicio" aria-label="Nous Diseño, ir al inicio">
+      <img src="assets/brand/logo-nous-wordmark.webp" width="473" height="157" alt="Nous Diseño" decoding="async">
+    </a>
+    <nav class="nav__menu" aria-label="Principal">
+      <a href="#trabajos" data-nav="trabajos">Trabajos</a>
+      <a href="#areas" data-nav="areas">Áreas</a>
+      <a href="#nosotros" data-nav="nosotros">Nosotros</a>
+      <a href="#clientes" data-nav="clientes">Clientes</a>
+      <a href="#contacto" data-nav="contacto">Contacto</a>
+    </nav>
+    <a class="nav__cta" href="#cotizar">Cotizar un proyecto</a>
+    <button class="burger" id="burger" type="button" aria-expanded="false" aria-controls="mobile-menu">
+      <span class="burger__label">Menú</span>
+      <span class="burger__bars" aria-hidden="true"><i></i><i></i></span>
+    </button>
+  </div>
+  <div class="mmenu" id="mobile-menu" hidden>
+    <nav class="mmenu__card" aria-label="Menú móvil">
+      <a href="#trabajos">Trabajos</a>
+      <a href="#areas">Áreas</a>
+      <a href="#nosotros">Nosotros</a>
+      <a href="#clientes">Clientes</a>
+      <a href="#contacto">Contacto</a>
+      <a class="mmenu__cta" href="#cotizar">Cotizar un proyecto</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <!-- 1. Portada: campo de semitono generativo -->
+  <section class="hero" id="inicio" aria-labelledby="hero-title">
+    <canvas class="hero__canvas" id="halftone" aria-hidden="true"></canvas>
+    <div class="hero__veil" aria-hidden="true"></div>
+    <div class="hero__inner">
+      <p class="hero__kicker"><span class="dot" aria-hidden="true"></span>Estudio de diseño y comunicación digital en Chile</p>
+      <h1 class="hero__title" id="hero-title" data-split>
+        Diseño que se imprime, se&nbsp;publica y&nbsp;se&nbsp;navega.
+      </h1>
+      <p class="hero__lede">Libros, revistas, identidad de marca, gráfica y sitios web. Cada pieza pensada con oficio de imprenta y criterio&nbsp;digital.</p>
+      <ul class="hero__areas" aria-label="Áreas de trabajo">
+        <li><a href="#trabajos" data-filter-link="Editorial">Editorial</a></li>
+        <li><a href="#trabajos" data-filter-link="Gráfica">Gráfica</a></li>
+        <li><a href="#trabajos" data-filter-link="Imagen corporativa">Imagen corporativa</a></li>
+        <li><a href="#trabajos" data-filter-link="Web">Web</a></li>
+        <li><a href="#trabajos" data-filter-link="Fotografía">Fotografía</a></li>
+      </ul>
+    </div>
+    <div class="hero__cue" aria-hidden="true"><span>desliza</span><i></i></div>
+  </section>
+
+  <!-- 2. Escena minimalista: la ampolleta de Zitta Producciones (diseño de Nous) -->
+  <section class="zoom" id="escena" aria-labelledby="zoom-title">
+    <div class="zoom__stage" id="zoom-stage">
+      <div class="zoom__halo" aria-hidden="true"></div>
+      <figure class="zoom__still">
+        <img src="assets/zitta-bulb/bulb-alpha-1200.webp" width="1148" height="1200" decoding="async"
+             alt="Ampolleta de vidrio cuyo interior es una explosión de pintura en turquesa, magenta, durazno y amarillo, diseñada por Nous para Zitta Producciones.">
+      </figure>
+      <div class="zoom__copy" id="zoom-copy">
+        <p class="zoom__tag">Zitta Producciones · imagen corporativa y RRSS</p>
+        <h2 class="zoom__title" id="zoom-title">Una idea que se llena de color.</h2>
+        <p>La ampolleta que Nous diseñó para la imagen de Zitta Producciones, cuyo lema es «El color de tus&nbsp;ideas».</p>
+        <a class="zoom__cta" href="#trabajos/zitta-producciones" data-open-project="zitta-producciones">Ver el proyecto Zitta Producciones</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. Trabajos -->
+  <section class="works" id="trabajos" aria-labelledby="works-title">
+    <div class="wrap">
+      <header class="sec-head">
+        <p class="sec-head__path" aria-hidden="true">~/nous/trabajos</p>
+        <h2 class="sec-head__title" id="works-title" data-split>Trabajos</h2>
+        <p class="sec-head__lede">Una selección de proyectos editoriales, de gráfica, identidad, web y fotografía. Abre cada uno para ver la galería&nbsp;completa.</p>
+      </header>
+
+      <div class="filters" role="group" aria-label="Filtrar por área" id="filters"></div>
+      <p class="sr-only" aria-live="polite" id="filter-status"></p>
+
+      <ul class="grid" id="grid" role="list"></ul>
+    </div>
+  </section>
+
+  <!-- 4. Áreas -->
+  <section class="areas" id="areas" aria-labelledby="areas-title">
+    <div class="wrap">
+      <header class="sec-head">
+        <p class="sec-head__path" aria-hidden="true">~/nous/areas</p>
+        <h2 class="sec-head__title" id="areas-title" data-split>Áreas</h2>
+      </header>
+      <ul class="area-list" id="area-list" role="list"></ul>
+    </div>
+  </section>
+
+  <!-- 5. Nosotros -->
+  <!-- EDITAR: copy de "Nosotros" (lede, 2 párrafos y 3 principios). Es el único lugar donde vive este texto. -->
+  <section class="about" id="nosotros" aria-labelledby="about-title">
+    <div class="wrap">
+      <div class="about__top">
+        <div class="about__text">
+          <header class="sec-head">
+            <p class="sec-head__path" aria-hidden="true">~/nous/nosotros</p>
+            <h2 class="sec-head__title" id="about-title" data-split>Nosotros</h2>
+            <p class="sec-head__lede">Somos Nous, un estudio de diseño y comunicación digital en&nbsp;Chile.</p>
+          </header>
+          <p class="about__p">Trabajamos con editoriales, empresas e instituciones que necesitan comunicar con claridad. Desde un libro o una revista hasta una identidad de marca o un sitio web, cada proyecto parte por entender qué quiere decir el cliente y a quién se lo quiere&nbsp;decir.</p>
+          <p class="about__p">Combinamos oficio de imprenta y criterio digital: cuidamos la tipografía, el ritmo de la página y los detalles de producción, para que cada pieza funcione igual de bien impresa que en&nbsp;pantalla.</p>
+        </div>
+        <img class="about__logo" src="assets/brand/logo-nous-dark.webp" width="500" height="446" loading="lazy" decoding="async" alt="Nous, Diseño y Comunicación Digital">
+      </div>
+      <ul class="principles" role="list">
+        <li class="principle"><h3>Claridad primero</h3><p>Un mensaje simple, bien jerarquizado y fácil de&nbsp;recordar.</p></li>
+        <li class="principle"><h3>Oficio</h3><p>Tipografía, grilla y producción resueltas con criterio, no con&nbsp;plantillas.</p></li>
+        <li class="principle"><h3>Cercanía</h3><p>Procesos simples, conversación directa y entregas&nbsp;claras.</p></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- 6. Clientes -->
+  <section class="clients" id="clientes" aria-labelledby="clients-title">
+    <div class="wrap">
+      <header class="sec-head">
+        <p class="sec-head__path" aria-hidden="true">~/nous/clientes</p>
+        <h2 class="sec-head__title" id="clients-title" data-split>Clientes</h2>
+        <p class="sec-head__lede">Marcas, instituciones y editoriales con las que hemos&nbsp;trabajado.</p>
+      </header>
+      <ul class="client-list" id="client-list" role="list"></ul>
+    </div>
+  </section>
+
+  <!-- 7. Contacto (datos desde js/config.js) -->
+  <section class="contact" id="contacto" aria-labelledby="contact-title">
+    <div class="wrap contact__inner">
+      <header class="sec-head">
+        <p class="sec-head__path" aria-hidden="true">~/nous/contacto</p>
+        <h2 class="sec-head__title" id="contact-title" data-split>Contacto</h2>
+      </header>
+      <p class="contact__ask">¿Tienes un libro, una marca o un sitio por&nbsp;hacer?</p>
+      <p class="contact__lede">Cuéntanos qué necesitas, para cuándo y en qué&nbsp;formato.</p>
+      <p class="contact__who" id="contact-who">Contacto: Cristian Richardson</p>
+      <form class="quote" id="cotizar" novalidate aria-labelledby="quote-title">
+        <h3 class="quote__title" id="quote-title">Cotiza tu proyecto</h3>
+        <p class="quote__lede">Cuéntanos lo esencial y te respondemos por correo.</p>
+        <div class="quote__grid">
+          <label class="field"><span>Nombre</span><input name="nombre" type="text" autocomplete="name" required></label>
+          <label class="field"><span>Correo</span><input name="email" type="email" autocomplete="email" required></label>
+          <label class="field"><span>Teléfono <i>(opcional)</i></span><input name="telefono" type="tel" autocomplete="tel"></label>
+          <label class="field"><span>Empresa o marca <i>(opcional)</i></span><input name="empresa" type="text" autocomplete="organization"></label>
+          <label class="field"><span>Tipo de proyecto</span>
+            <select name="tipo" required>
+              <option value="" selected disabled>Elige una opción</option>
+              <option>Identidad de marca / logo</option>
+              <option>Sitio web o landing</option>
+              <option>Diseño editorial / libro</option>
+              <option>Material gráfico / packaging</option>
+              <option>Redes sociales / contenido</option>
+              <option>Otro</option>
+            </select></label>
+          <label class="field"><span>Plazo deseado</span>
+            <select name="plazo">
+              <option value="" selected>Sin definir</option>
+              <option>Lo antes posible</option>
+              <option>1 mes</option>
+              <option>2 a 3 meses</option>
+              <option>Más adelante</option>
+            </select></label>
+          <label class="field field--wide"><span>Cuéntanos tu proyecto</span><textarea name="mensaje" rows="5" required></textarea></label>
+        </div>
+        <input class="quote__hp" type="text" name="_gotcha" tabindex="-1" autocomplete="off" aria-hidden="true">
+        <div class="quote__foot">
+          <button class="btn" type="submit">Enviar cotización</button>
+          <p class="quote__status" id="quote-status" role="status" aria-live="polite"></p>
+        </div>
+      </form>
+      <div class="contact__actions" id="contact-actions">
+        <a class="btn" href="#cotizar">Cotizar un proyecto</a>
+        <a class="btn-ghost" href="https://wa.me/56977400404?text=Hola%2C%20quisiera%20cotizar%20un%20proyecto" rel="noopener">Escribir por WhatsApp</a>
+        <a class="btn-ghost" href="tel:+56977400404">+56 9 7740 0404</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="wrap foot__inner">
+    <img class="foot__logo" src="assets/brand/logo-nous-dark.webp" width="500" height="446" loading="lazy" decoding="async" alt="Nous, Diseño y Comunicación Digital">
+    <address class="foot__contact">
+      <a href="mailto:hola@ndsno.cl?subject=Cotización%20de%20proyecto" data-contact-link="mail">hola@ndsno.cl</a>
+      <a href="tel:+56977400404" data-contact-link="tel">+56 9 7740 0404</a>
+    </address>
+    <span class="foot__copy">© <span id="year"></span> Nous Diseño</span>
+    <a class="foot__top" href="#inicio">Volver arriba</a>
+  </div>
+</footer>
+
+<!-- Vista detalle / galería -->
+<dialog class="detail" id="detail" aria-labelledby="detail-title">
+  <div class="detail__inner">
+    <header class="detail__head">
+      <div>
+        <p class="detail__meta" id="detail-meta"></p>
+        <h2 class="detail__title" id="detail-title"></h2>
+        <p class="detail__desc" id="detail-desc"></p>
+      </div>
+      <button class="btn-ghost detail__close" type="button" id="detail-close">Cerrar</button>
+    </header>
+    <div class="gallery" id="gallery" role="region" aria-roledescription="galería" aria-label="Imágenes del proyecto">
+      <figure class="gallery__stage">
+        <img id="gallery-img" alt="" width="1200" height="800" decoding="async">
+        <figcaption class="gallery__count" id="gallery-count" aria-live="polite"></figcaption>
+      </figure>
+      <div class="gallery__nav">
+        <button class="btn-ghost" type="button" id="gallery-prev" aria-label="Imagen anterior">Anterior</button>
+        <button class="btn-ghost" type="button" id="gallery-next" aria-label="Imagen siguiente">Siguiente</button>
+      </div>
+      <ul class="thumbs" id="thumbs" role="list" aria-label="Miniaturas"></ul>
+    </div>
+  </div>
+</dialog>
+
+<div class="cursor is-hidden" id="cursor" aria-hidden="true"><span class="cursor__ring"></span><span class="cursor__label" id="cursor-label"></span></div>
+
+<script src="vendor/gsap.min.js" defer></script>
+<script src="vendor/ScrollTrigger.min.js" defer></script>
+<script type="module" src="js/main.js"></script>
+</body>
+</html>

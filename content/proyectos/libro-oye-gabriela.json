@@ -1,0 +1,16 @@
+{
+  "id": "libro-oye-gabriela",
+  "titulo": "Oye Gabriela - Elisa Chile",
+  "categoria": "Editorial",
+  "cliente": "Oye Gabriela",
+  "destaca": "Libro con portada fotográfica de aire cinematográfico.",
+  "orden": 8,
+  "imgs": [
+    ["libro-oye-gabriela-01",1200,884],
+    ["libro-oye-gabriela-02",1200,884],
+    ["libro-oye-gabriela-03",1200,884],
+    ["libro-oye-gabriela-04",1200,884],
+    ["libro-oye-gabriela-05",1200,884],
+    ["libro-oye-gabriela-06",1200,884]
+  ]
+}
